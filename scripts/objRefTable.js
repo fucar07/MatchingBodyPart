@@ -38,9 +38,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Exps.X,
 		C3.Plugins.Sprite.Exps.Y,
 		C3.Behaviors.Tween.Acts.TweenOneProperty,
-		C3.Plugins.System.Acts.RestartLayout,
 		C3.Behaviors.DragnDrop.Cnds.OnDragStart,
 		C3.Plugins.Sprite.Acts.MoveToTop,
+		C3.Plugins.Audio.Acts.Stop,
 		C3.Behaviors.DragnDrop.Cnds.OnDrop,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
 		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
@@ -61,8 +61,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SetBoolVar,
 		C3.Plugins.Sprite.Acts.SetSize,
 		C3.Plugins.System.Cnds.EveryTick,
-		C3.Plugins.System.Acts.Wait,
-		C3.Plugins.Audio.Acts.Stop
+		C3.Plugins.System.Acts.Wait
 	];
 };
 self.C3_JsPropNameTable = [

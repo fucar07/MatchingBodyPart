@@ -1438,6 +1438,8 @@ self.C3_ExpressionFuncs = [
 		() => 5,
 		() => "Sistem",
 		() => "Sürükle-Bırak",
+		() => "vayvay",
+		() => "vıyvıy",
 		() => 1,
 		p => {
 			const n0 = p._GetNode(0);
@@ -1451,7 +1453,6 @@ self.C3_ExpressionFuncs = [
 		() => 1920,
 		() => 1080,
 		() => 1.5,
-		() => 2,
 		() => "bitis"
 ];
 
